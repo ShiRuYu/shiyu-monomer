@@ -1,0 +1,7 @@
+spring:
+  #数据库配置
+  datasource:
+    username: shiyu
+    password: y4KtXWbx2bFjRnEX
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://124.222.20.152:3306/shiyu?zeroDateTimeBehavior=convertToNull&useUnicode=true&characterEncoding=utf-8&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true

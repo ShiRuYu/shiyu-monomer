@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.shiyu.mapper.UserRoleMapper">
+
+    <insert id="insertBatch">
+        <selectKey keyProperty="id" keyColumn="id" order="AFTER" resultType="Long">
+            select last_insert_id()
+        </selectKey>
+        insert into shi_yu_user_role(user_id,role_id)
+        values
+        <foreach collection="userRoleList" item="entity" separator=",">
+            (#{entity.userId},#{entity.roleId})
+        </foreach>
+    </insert>
+
+</mapper>
+

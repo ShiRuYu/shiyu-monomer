@@ -1,0 +1,21 @@
+mybatis-plus:
+  configuration:
+    #输出日志
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    #配置映射规则
+    map-underscore-to-camel-case: true #表示支持下划线到驼蜂的映射
+    #隐藏mybatis图标
+  global-config:
+    banner: false
+    db-config:
+      logic-delete-field: delStatus #删除字段
+      logic-delete-value: 0 #删除值
+      logic-not-delete-value: 1 #正常值
+      id-type: assign_id #逐渐生成策略 雪花算法 默认
+      table-prefix: shi_yu_
+  mapper-locations: classpath*:/mapper/*.xml
+
+pagehelper:
+  propertyName: propertyValue
+  reasonable: false
+  defaultCount: true # 分页插件默认参数支持 default-count 形式，自定义扩展的参数，必须大小
