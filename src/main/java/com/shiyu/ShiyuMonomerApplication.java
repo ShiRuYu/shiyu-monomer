@@ -5,7 +5,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication(scanBasePackages = {"com.shiyu"})
-@MapperScan(basePackages = "com.shiyu.mapper")
+@MapperScan(basePackages = "com.shiyu.infrastructure.mapper")
 public class ShiyuMonomerApplication {
 
     public static void main(String[] args) {
