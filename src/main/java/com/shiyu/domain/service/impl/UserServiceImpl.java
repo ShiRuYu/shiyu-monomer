@@ -3,7 +3,7 @@ package com.shiyu.domain.service.impl;
 import com.shiyu.domain.service.UserService;
 import com.shiyu.infrastructure.mapper.UserMapper;
 import com.shiyu.application.convert.UserConvertMapper;
-import com.shiyu.infrastructure.model.po.User;
+import com.shiyu.infrastructure.model.User;
 import com.shiyu.application.vo.UserVO;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;

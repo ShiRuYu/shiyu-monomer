@@ -1,4 +1,4 @@
-package com.shiyu.infrastructure.model.po;
+package com.shiyu.infrastructure.model;
 
 import lombok.Data;
 import lombok.EqualsAndHashCode;

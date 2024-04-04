@@ -4,7 +4,7 @@ import cn.hutool.core.collection.CollectionUtil;
 import com.shiyu.domain.service.RoleService;
 import com.shiyu.domain.service.UserRoleService;
 import com.shiyu.infrastructure.mapper.UserRoleMapper;
-import com.shiyu.infrastructure.model.po.UserRole;
+import com.shiyu.infrastructure.model.UserRole;
 import com.shiyu.application.vo.RoleVO;
 import jakarta.annotation.Resource;
 import org.assertj.core.util.Lists;

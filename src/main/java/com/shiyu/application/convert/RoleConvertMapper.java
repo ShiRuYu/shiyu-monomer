@@ -3,7 +3,7 @@ package com.shiyu.application.convert;
 import cn.hutool.core.date.DateUtil;
 import com.shiyu.application.vo.RoleVO;
 import com.shiyu.domain.dto.RoleDTO;
-import com.shiyu.infrastructure.model.po.Role;
+import com.shiyu.infrastructure.model.Role;
 import com.shiyu.utils.DateUtils;
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;

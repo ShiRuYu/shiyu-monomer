@@ -1,4 +1,4 @@
-package com.shiyu.interfaces.model;
+package com.shiyu.web.model;
 
 /**
  * @description:

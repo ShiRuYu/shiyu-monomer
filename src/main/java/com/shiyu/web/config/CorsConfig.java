@@ -1,4 +1,4 @@
-package com.shiyu.interfaces.config;
+package com.shiyu.web.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.CorsRegistry;

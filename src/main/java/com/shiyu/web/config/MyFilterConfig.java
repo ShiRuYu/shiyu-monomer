@@ -1,7 +1,7 @@
-package com.shiyu.interfaces.config;
+package com.shiyu.web.config;
 
 
-import com.shiyu.interfaces.filter.CommonInfoFilter;
+import com.shiyu.web.filter.CommonInfoFilter;
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

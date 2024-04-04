@@ -1,7 +1,7 @@
 package com.shiyu.infrastructure.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.shiyu.infrastructure.model.po.Role;
+import com.shiyu.infrastructure.model.Role;
 
 /**
  * @description:

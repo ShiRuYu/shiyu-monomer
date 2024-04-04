@@ -1,4 +1,4 @@
-package com.shiyu.interfaces.interceptor;
+package com.shiyu.web.sotoken;
 
 import cn.dev33.satoken.interceptor.SaInterceptor;
 import cn.dev33.satoken.router.SaRouter;

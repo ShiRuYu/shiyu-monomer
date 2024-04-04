@@ -6,7 +6,7 @@ import com.shiyu.domain.dto.MenuDTO;
 import com.shiyu.domain.service.MenuService;
 import com.shiyu.infrastructure.mapper.MenuMapper;
 import com.shiyu.application.convert.MenuConvertMapper;
-import com.shiyu.infrastructure.model.po.Menu;
+import com.shiyu.infrastructure.model.Menu;
 import com.shiyu.application.vo.MenuVO;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;

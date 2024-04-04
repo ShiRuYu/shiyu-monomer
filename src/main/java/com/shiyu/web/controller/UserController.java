@@ -1,4 +1,4 @@
-package com.shiyu.interfaces.controller;
+package com.shiyu.web.controller;
 
 import cn.dev33.satoken.stp.StpUtil;
 import cn.dev33.satoken.util.SaResult;

@@ -1,4 +1,4 @@
-package com.shiyu.interfaces.config;
+package com.shiyu.web.sotoken;
 
 import cn.dev33.satoken.config.SaTokenConfig;
 import org.springframework.context.annotation.Bean;

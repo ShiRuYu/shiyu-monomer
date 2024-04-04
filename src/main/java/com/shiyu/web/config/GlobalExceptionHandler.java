@@ -1,4 +1,4 @@
-package com.shiyu.interfaces.config;
+package com.shiyu.web.config;
 
 import cn.hutool.core.collection.CollectionUtil;
 import com.shiyu.utils.model.Result;

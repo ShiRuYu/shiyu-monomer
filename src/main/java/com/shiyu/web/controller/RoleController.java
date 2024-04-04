@@ -1,4 +1,4 @@
-package com.shiyu.interfaces.controller;
+package com.shiyu.web.controller;
 
 /**
  * @description:

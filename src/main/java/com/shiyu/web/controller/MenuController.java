@@ -1,4 +1,4 @@
-package com.shiyu.interfaces.controller;
+package com.shiyu.web.controller;
 
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
 import com.shiyu.domain.dto.MenuDTO;

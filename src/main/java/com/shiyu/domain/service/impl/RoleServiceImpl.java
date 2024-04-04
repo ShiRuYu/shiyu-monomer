@@ -6,7 +6,7 @@ import com.shiyu.domain.service.RoleService;
 import com.shiyu.infrastructure.mapper.RoleMapper;
 import com.shiyu.application.convert.RoleConvertMapper;
 import com.shiyu.domain.dto.RoleDTO;
-import com.shiyu.infrastructure.model.po.Role;
+import com.shiyu.infrastructure.model.Role;
 import com.shiyu.application.vo.RoleVO;
 import jakarta.annotation.Resource;
 import org.springframework.stereotype.Service;

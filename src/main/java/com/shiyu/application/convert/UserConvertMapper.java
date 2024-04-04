@@ -1,7 +1,7 @@
 package com.shiyu.application.convert;
 
 import cn.hutool.core.date.DateUtil;
-import com.shiyu.infrastructure.model.po.User;
+import com.shiyu.infrastructure.model.User;
 import com.shiyu.application.vo.UserVO;
 import com.shiyu.utils.DateUtils;
 import org.mapstruct.Mapper;
