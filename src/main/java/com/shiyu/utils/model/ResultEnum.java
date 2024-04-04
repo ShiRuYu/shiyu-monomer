@@ -13,6 +13,18 @@ public enum ResultEnum {
      */
     SUCCESS(200, "操作成功"),
     /**
+     * 校验失败
+     */
+    VALIDATE_FAIL(101, "校验失败"),
+    /**
+     * 数据不存在
+     */
+    DATA_MISSING(102, "数据不存在"),
+    /**
+     * 数据已存在
+     */
+    DATA_EXISTED(103, "数据已存在"),
+    /**
      * 重定向
      */
     SEE_OTHER(303, "重定向"),
@@ -21,9 +33,9 @@ public enum ResultEnum {
      */
     BAD_REQUEST(400, "请求错误"),
     /**
-     * 未授权
+     * 无权限访问
      */
-    UNAUTHORIZED(401, "未授权"),
+    UNAUTHORIZED(401, "无权限访问"),
     /**
      * 访问受限，授权过期
      */
@@ -33,13 +45,21 @@ public enum ResultEnum {
      */
     NOT_FOUND(404, "资源，服务未找！"),
     /**
-     * 不允许的http方法
+     * 请求类型不支持
      */
-    BAD_METHOD(405, "不允许的http方法"),
+    BAD_METHOD(405, "请求类型不支持"),
     /**
      * 参数列表错误（缺少，格式不匹配）
      */
     BAD_PARAM(406, "参数列表错误（缺少，格式不匹配）"),
+    /**
+     * 请求超时
+     */
+    REQUEST_TIMEOUT(408, "请求超时"),
+    /**
+     * 重复提交
+     */
+    REPEAT_SUBMIT(409, "重复提交"),
     /**
      * 不支持的数据，媒体类型
      */
