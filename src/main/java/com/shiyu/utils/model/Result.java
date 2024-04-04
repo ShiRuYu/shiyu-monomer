@@ -2,6 +2,7 @@ package com.shiyu.utils.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 import java.io.Serial;
@@ -10,6 +11,7 @@ import java.io.Serializable;
 /**
  * 返回结果集
  **/
+@EqualsAndHashCode(callSuper = true)
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
